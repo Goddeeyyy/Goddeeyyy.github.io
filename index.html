@@ -119,6 +119,38 @@
              transform:scale(1.2) rotate(25deg);
         }
 
+        @media only screen and (max-width:768px){
+            #showcase{
+                width: 600px;
+                margin: 0 auto;
+            }
+            
+            #showcase h1{
+                font-size: 100px;
+            }
+        
+            #showcase p{
+                font-size: 25px;
+                justify-content: center;
+            }
+        }
+        
+        @media only screen and (max-width:767px){
+            #showcase{
+                width: 300px;
+                margin: 0 auto;
+            }
+            
+            #showcase h1{
+                font-size: 45px;
+            }
+        
+            #showcase p{
+                font-size: 17px;
+                justify-content: center;
+            }
+            
+        }
 
     </style>
     
@@ -132,7 +164,7 @@
         </video>
         <div class="content">
             <header id="showcase">
-                <img src="Resources/avatar.png">
+                <img class="img-logo" src="Resources/avatar.png">
                 <h1>GreetingsTraveller!</h1>
                 <p>Welcome to Goddeeyyy's website</p>
                 <div class="s-m">
